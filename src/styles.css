@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+/*common styling for both rods*/
+.rod {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+}
+/*styling of rod 1*/
+#rod1 {
+  background-color: #0000ff;
+  top: 10px;
+}
+/* styling of rod2*/
+#rod2 {
+  background-color: #8a2be2;
+  bottom: 10px;
+}
+/*styling og ball*/
+#ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: brown;
+  position: fixed;
+}
